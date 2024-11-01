@@ -1,0 +1,140 @@
+﻿@font-face {
+    font-family: 'BitPoints';
+    src:
+        url('fonts/BitPoints.ttf?lod294') format('truetype'),
+        url('fonts/BitPoints.woff?lod294') format('woff'),
+        url('fonts/BitPoints.svg?lod294#BitPoints') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'BitPoints' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-B:before {
+    content: "\42";
+}
+
+.bitpoints-use-points-header {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float:right;
+}
+
+.bitpoints-use-points-checkbox {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.bitpoints-history {
+    vertical-align: middle;
+    font-family: Lato, sans-serif;
+    color: rgb(64, 64, 64);
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-shadow: none;
+    border-radius: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-collapse: separate;
+    margin: 0px;
+}
+
+.bitpoints-history table {
+    border-top-color: rgba(0, 0, 0, 0.08);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: table;
+    margin-bottom: 50px;
+}
+
+.bitpoints-history th {
+    background-color: rgba(0, 0, 0, 0.0196078);
+    color: rgb(64, 64, 64);
+    display: table-cell;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.bitpoints-history td {
+    border-top-color: rgba(0, 0, 0, 0.08);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: table-cell;
+    padding: 10px;
+}
+
+.bitpoints-history-header-amount, .bitpoints-history-header-points, .bitpoints-history-item-amount, .bitpoints-history-item-points {
+    text-align: right;
+}
+
+.bitpoints-history-item-row-alternate {
+    
+}
+
+.bitpoints-due-to-expire {
+    vertical-align: middle;
+    font-family: Lato, sans-serif;
+    color: rgb(64, 64, 64);
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-shadow: none;
+    border-radius: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    border-collapse: separate;
+    margin: 0px;
+}
+
+.bitpoints-due-to-expire table {
+    border-top-color: rgba(0, 0, 0, 0.08);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: table;
+    margin-bottom: 50px;
+}
+
+.bitpoints-due-to-expire th {
+    background-color: rgba(0, 0, 0, 0.0196078);
+    color: rgb(64, 64, 64);
+    display: table-cell;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.bitpoints-due-to-expire td {
+    border-top-color: rgba(0, 0, 0, 0.08);
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: table-cell;
+    padding: 10px;
+}
